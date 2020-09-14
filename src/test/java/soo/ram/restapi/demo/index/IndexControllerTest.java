@@ -3,13 +3,13 @@ package soo.ram.restapi.demo.index;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.web.servlet.MockMvc;
-import soo.ram.restapi.demo.common.BaseControllerTest;
+import soo.ram.restapi.demo.common.BaseTest;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-public class IndexControllerTest extends BaseControllerTest {
+public class IndexControllerTest extends BaseTest {
     @Autowired
     MockMvc mockMvc;
 
